@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 const cors = require('cors');
 app.use(cors({
-    origin: ['http://localhost:4200', 'http://localhost:4200/pais']
+    origin: ['*']
 }));
 
 
